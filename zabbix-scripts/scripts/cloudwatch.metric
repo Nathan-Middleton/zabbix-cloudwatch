@@ -83,7 +83,7 @@ if __name__ == "__main__":
     default_path = "/usr/lib/zabbix/scripts/conf/aws.conf"
     conf_file = args.config if args.config else default_path
     config = configparser.ConfigParser()
-    config.readfp(open(conf_file))
+    config.read_file(open(conf_file))
     checker = Checker(config, args.account, "cloudwatch", args.region)
     checker.debug = args.debug
 

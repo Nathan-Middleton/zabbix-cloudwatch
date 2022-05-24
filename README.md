@@ -28,3 +28,5 @@ Default template has rules and items for following services:
 Detailed overview at: https://wordpress.com/read/feeds/49943587/posts/1417437611
 
 Hit me up on twitter [@wawastein](https://twitter.com/wawastein) if you got any questions, submit pull requests, fork all you want, and Papa bless.
+
+## In Python3 need to include modules in default python dir 
